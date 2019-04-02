@@ -16,24 +16,27 @@
 <body>
 <div class="hero-image">
   <div class="container">
-    <header>
-      <a href="../index.html"><img src="../images/logo-amer-alyusuf.png" width="308" height="37" alt="Daniel Walter Scott - Web design Portfolio Logo"></a>
-      <div class="mobile-view"><img src="../images/burger-menu.svg" alt="" width="25"/></div>   
-      <nav>
-        <div class="desktop-view">
-          <ul>
-            <li><a href="#" class="btn-red">ABOUT</a></li>
-            <li><a href="#" class="btn-green">CV</a></li>
-			<li><a href="#" class="btn-red">PROJECTS</a></li>
-            <li><a href="#" class="btn-green">CONTACT</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+	  
+	  <div class="nav">
+			<a href="index.html"><img src="../images/logo-amer-alyusuf.png" width="308" height="37" alt="Amer Alyusuf - IOS Developer Resume Logo"></a>
+			<div class="mobile-view"><img src="../images/burger-menu.svg" alt="" width="25"/></div>   
+			<nav>
+				<div class="desktop-view">
+					<ul>
+						<li><a href="index.html" class="btn-red">ABOUT</a></li>
+						<li><a href="cv.html" class="btn-green">CV</a></li>
+						<li><a href="projects.html" class="btn-red">PROJECTS</a></li>
+						<li><a href="contact.html" class="btn-green">CONTACT</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
     <!-- TemplateBeginEditable name="main-content" -->
     <main></main>
     <!-- TemplateEndEditable -->
+	<hr>
     <footer>
+<!--
       <div class="social-icon">
 		  <a href="https://www.linkedin.com/in/amer-alyusuf-77398587" target="_blank">
 		  <img src="../images/linkedin_logo.png" width="41" height="41" alt="ALYUSUF LinkedIn"></a>
@@ -41,7 +44,9 @@
 		  <img src="../images/bayt_logo.png" width="41" height="41" alt="BYOL Twitter"></a>
 					  <a href="mailto:sillytrouble@icloud.com" target="_blank">
 		  <img src="../images/gmail_logo.png" width="41" height="41" alt="BYOL Email"></a></div>
-<!--      <div class="copyright">COPYRIGHT 2017© DANS PORTFOLIO LTD</div>-->
+-->
+		
+		<p class="footerNote">Created by: <span>Amer Alyusuf</span></p>
     </footer>
   </div>
 </div>
