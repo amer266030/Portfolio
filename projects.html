@@ -8,6 +8,7 @@
 <link href="styles.css" rel="stylesheet" type="text/css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
+<script type="text/javascript" src="js/lightbox.js"></script>
 <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/open-sans-condensed:n3:default.js" type="text/javascript"></script>
 <!-- InstanceBeginEditable name="head" -->
 <!-- InstanceEndEditable -->
@@ -45,7 +46,55 @@
 					<img src="images/app-icons/gmat-icon.png">
 				</figure>
 				<h2 class="sectionContentTitle">Preparation tests of GMAT exam-like questions.</h2>
-				<p class="sectionContent">App Store URL: <a href="#">this is a link</a></p>
+				<p class="sectionContent"><a href="#">JOIN TEST FLIGHT?</a></p>
+				<h3 onclick="openModal('mySlides1','modal-window-one');currentSlide(1)" class="hover-shadow cursor sectionContent">Screen Images</h3>
+			</div>
+		</div>
+		  
+		<div id="modal-window-one" class="modal-window modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+
+			<div class="mySlides mySlides1">
+				<div class="numbertext">1 / 4</div>
+				<img src="images/app-screens/gmat1.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides mySlides1">
+				<div class="numbertext">2 / 4</div>
+				<img src="images/app-screens/gmat2.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides mySlides1">
+				<div class="numbertext">3 / 4</div>
+				<img src="images/app-screens/gmat3.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides mySlides1">
+				<div class="numbertext">4 / 4</div>
+				<img src="images/app-screens/gmat4.jpg" style="width:100%">
+			</div>
+		
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			<div class="caption-container">
+				<p id="caption"></p>
+			</div>
+
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/gmat1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Screen1">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/gmat2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Screen2">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/gmat3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Screen3">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/gmat4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Screen4">
+			</div>
+				
 			</div>
 		</div>
 		  
@@ -58,9 +107,58 @@
 					<img src="images/app-icons/tile-icon.png">
 				</figure>
 				<h2 class="sectionContentTitle">Speed challenge tile shifting game.</h2>
-				<p class="sectionContent">App Store URL: <a href="#">this is a link</a></p>
+				<p class="sectionContent"><a href="#">JOIN TEST FLIGHT?</a></p>
+				<h3 onclick="openModal('mySlides2','modal-window-two');currentSlide(1)" class="hover-shadow cursor sectionContent">Screen Images</h3>
 			</div>
 		</div>
+		  
+		<div id="modal-window-two" class="modal-window modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+
+			<div class="mySlides mySlides2">
+				<div class="numbertext">1 / 4</div>
+				<img src="images/app-screens/tileShifter1.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides mySlides2">
+				<div class="numbertext">2 / 4</div>
+				<img src="images/app-screens/tileShifter2.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides mySlides2">
+				<div class="numbertext">3 / 4</div>
+				<img src="images/app-screens/tileShifter3.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides mySlides2">
+				<div class="numbertext">4 / 4</div>
+				<img src="images/app-screens/tileShifter4.jpg" style="width:100%">
+			</div>
+		
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			<div class="caption-container">
+				<p></p>
+			</div>
+
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/tileShifter1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Screen1">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/tileShifter2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Screen2">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/tileShifter3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Screen3">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/tileShifter4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Screen4">
+			</div>
+				
+			</div>
+		</div>
+		  
   	  </section>
 		
 	  <section class="section2">
@@ -76,7 +174,38 @@
 				</figure>
 				<h2 class="sectionContentTitle">Use the camera display for showing an animated rolling Dice.</h2>
 				<p class="sectionContent"><b>Frameworks/Libraries: ARKit (Augmented Reality).</b> </p>
-				<p class="sectionContent">Screen Images: <a href="#">this is a link</a></p>
+				<h3 onclick="openModal('mySlides3','modal-window-three');currentSlide(1)" class="hover-shadow cursor sectionContent">Screen Images</h3>
+			</div>
+		</div>
+		  
+		<div id="modal-window-three" class="modal-window modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+
+			<div class="mySlides mySlides3">
+				<div class="numbertext">1 / 4</div>
+				<img src="images/app-screens/gmat1.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides mySlides3">
+				<div class="numbertext">2 / 4</div>
+				<img src="images/app-screens/gmat2.jpg" style="width:100%">
+			</div>
+		
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			<div class="caption-container">
+				<p></p>
+			</div>
+
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/gmat1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Screen1">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/gmat2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Screen2">
+			</div>
+				
 			</div>
 		</div>
 		  
@@ -90,7 +219,38 @@
 				</figure>
 				<h2 class="sectionContentTitle">Use the camera display for measuring distance.</h2>
 				<p class="sectionContent"><b>Frameworks/Libraries:</b> ARKit (Augmented Reality).</p>
-				<p class="sectionContent">Screen Images: <a href="#">this is a link</a></p>
+				<h3 onclick="openModal('mySlides4','modal-window-four');currentSlide(1)" class="hover-shadow cursor sectionContent">Screen Images</h3>
+			</div>
+		</div>
+		  
+		<div id="modal-window-four" class="modal-window modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+
+			<div class="mySlides mySlides4">
+				<div class="numbertext">1 / 4</div>
+				<img src="images/app-screens/gmat1.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides mySlides4">
+				<div class="numbertext">2 / 4</div>
+				<img src="images/app-screens/gmat2.jpg" style="width:100%">
+			</div>
+		
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			<div class="caption-container">
+				<p></p>
+			</div>
+
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/gmat1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Screen1">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/gmat2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Screen2">
+			</div>
+				
 			</div>
 		</div>
 		  
@@ -104,7 +264,54 @@
 				</figure>
 				<h2 class="sectionContentTitle">Use the camera to identify Flowers.</h2>
 				<p class="sectionContent"><b>Frameworks/Libraries:</b> (Machine Learning) CoreML InceptionV3 model</p>
-				<p class="sectionContent">Screen Images: <a href="#">this is a link</a></p>
+				<h3 onclick="openModal('mySlides5','modal-window-five');currentSlide(1)" class="hover-shadow cursor sectionContent">Screen Images</h3>
+			</div>
+		</div>
+		  
+		<div id="modal-window-five" class="modal-window modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+
+			<div class="mySlides mySlides5">
+				<div class="numbertext">1 / 4</div>
+				<img src="images/app-screens/whatFlower1.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides mySlides5">
+				<div class="numbertext">2 / 4</div>
+				<img src="images/app-screens/whatFlower2.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides mySlides5">
+				<div class="numbertext">3 / 4</div>
+				<img src="images/app-screens/whatFlower3.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides mySlides5">
+				<div class="numbertext">4 / 4</div>
+				<img src="images/app-screens/whatFlower4.jpg" style="width:100%">
+			</div>
+		
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			<div class="caption-container">
+				<p></p>
+			</div>
+
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/whatFlower1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Screen1">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/whatFlower2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Screen2">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/whatFlower3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Screen3">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/whatFlower4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Screen4">
+			</div>
+				
 			</div>
 		</div>
 		  
@@ -118,7 +325,58 @@
 				</figure>
 				<h2 class="sectionContentTitle">Is your captured picture a hotdog?</h2>
 				<p class="sectionContent"><b>Frameworks/Libraries:</b> (Machine Learning) CoreML converted caffe model</p>
-				<p class="sectionContent">Screen Images: <a href="#">this is a link</a></p>
+				<h3 onclick="openModal('mySlides6','modal-window-six');currentSlide(1)" class="hover-shadow cursor sectionContent">Screen Images</h3>
+			</div>
+		</div>
+		  
+		<div id="modal-window-six" class="modal-window modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+
+			<div class="mySlides mySlides6">
+				<div class="numbertext">1 / 4</div>
+				<img src="images/app-screens/seeFood1.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides mySlides6">
+				<div class="numbertext">2 / 4</div>
+				<img src="images/app-screens/seeFood2.jpg" style="width:100%">
+			</div>
+
+<!--
+			<div class="mySlides mySlides6">
+				<div class="numbertext">3 / 4</div>
+				<img src="#" style="width:100%">
+			</div>
+
+			<div class="mySlides mySlides6">
+				<div class="numbertext">4 / 4</div>
+				<img src="#" style="width:100%">
+			</div>
+-->
+		
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			<div class="caption-container">
+				<p></p>
+			</div>
+
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/seeFood1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/seeFood2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+			</div>
+<!--
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/#" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/#" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+			</div>
+-->
+				
 			</div>
 		</div>
 		  
@@ -132,7 +390,58 @@
 				</figure>
 				<h2 class="sectionContentTitle">Real time user chat.</h2>
 				<p class="sectionContent"><b>Frameworks/Libraries:</b> Firebase(Authentication & Real time DB), Navigation Controllers, TableViews.</p>
-				<p class="sectionContent">Screen Images: <a href="#">this is a link</a></p>
+				<h3 onclick="openModal('mySlides7','modal-window-seven');currentSlide(1)" class="hover-shadow cursor sectionContent">Screen Images</h3>
+			</div>
+		</div>
+		  
+		<div id="modal-window-seven" class="modal-window modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+
+<!--
+			<div class="mySlides mySlides7">
+				<div class="numbertext">1 / 4</div>
+				<img src="images/app-screens/gmat1.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides mySlides7">
+				<div class="numbertext">2 / 4</div>
+				<img src="images/app-screens/gmat2.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides mySlides7">
+				<div class="numbertext">3 / 4</div>
+				<img src="images/app-screens/gmat3.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides mySlides7">
+				<div class="numbertext">4 / 4</div>
+				<img src="images/app-screens/gmat4.jpg" style="width:100%">
+			</div>
+-->
+		
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			<div class="caption-container">
+				<p></p>
+			</div>
+
+<!--
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/gmat1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Screen1">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/gmat2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Screen2">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/gmat3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Screen3">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/gmat4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Screen4">
+			</div>
+-->
+				
 			</div>
 		</div>
 		  
@@ -147,7 +456,46 @@
 				<h2 class="sectionContentTitle">Organize a todo list by crteating multiple categories, and adding list items to each.</h2>
 				<p class="sectionContent"><b>Frameworks/Libraries:</b> Table Views, Persistent Local Data Storage.</p>
 				<p class="sectionContent">Experimented with the different methods used for storing data. Started with UserDefaults, changed to NSCoder, then CoreData, and ended with Realm.</p>
-				<p class="sectionContent">Screen Images: <a href="#">this is a link</a></p>
+				<h3 onclick="openModal('mySlides8','modal-window-eight');currentSlide(1)" class="hover-shadow cursor sectionContent">Screen Images</h3>
+			</div>
+		</div>
+		  
+		<div id="modal-window-eight" class="modal-window modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+
+			<div class="mySlides mySlides8">
+				<div class="numbertext">1 / 4</div>
+				<img src="images/app-screens/todoey1.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides mySlides8">
+				<div class="numbertext">2 / 4</div>
+				<img src="images/app-screens/todoey2.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides mySlides8">
+				<div class="numbertext">3 / 4</div>
+				<img src="images/app-screens/todoey3.jpg" style="width:100%">
+			</div>
+		
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			<div class="caption-container">
+				<p></p>
+			</div>
+
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/todoey1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Screen1">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/todoey2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Screen2">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/todoey3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Screen3">
+			</div>
+				
 			</div>
 		</div>
 		  
@@ -161,7 +509,54 @@
 				</figure>
 				<h2 class="sectionContentTitle">The weather in current location, or look up by city name.</h2>
 				<p class="sectionContent"><b>Frameworks/Libraries:</b> CoreLocation, Alamofire(used an API to make an HTTP request, and parsed the recieved JSON result) </p>
-				<p class="sectionContent">Screen Images: <a href="#">this is a link</a></p>
+				<h3 onclick="openModal('mySlides9','modal-window-nine');currentSlide(1)" class="hover-shadow cursor sectionContent">Screen Images</h3>
+			</div>
+		</div>
+		  
+		<div id="modal-window-nine" class="modal-window modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+
+			<div class="mySlides mySlides9">
+				<div class="numbertext">1 / 4</div>
+				<img src="images/app-screens/clima1.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides mySlides9">
+				<div class="numbertext">2 / 4</div>
+				<img src="images/app-screens/clima2.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides mySlides9">
+				<div class="numbertext">3 / 4</div>
+				<img src="images/app-screens/clima3.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides mySlides9">
+				<div class="numbertext">4 / 4</div>
+				<img src="images/app-screens/clima4.jpg" style="width:100%">
+			</div>
+		
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			<div class="caption-container">
+				<p></p>
+			</div>
+
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/clima1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Screen1">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/clima2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Screen2">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/clima3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Screen3">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/clima4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Screen4">
+			</div>
+				
 			</div>
 		</div>
 
@@ -175,7 +570,38 @@
 				</figure>
 				<h2 class="sectionContentTitle">Find the value of Bitcoin in different currencies</h2>
 				<p class="sectionContent"><b>Frameworks/Libraries:</b> Alamofire(used an API to make an HTTP request, and parsed the recieved JSON result) </p>
-				<p class="sectionContent">Screen Images: <a href="#">this is a link</a></p>
+				<h3 onclick="openModal('mySlides10','modal-window-ten');currentSlide(1)" class="hover-shadow cursor sectionContent">Screen Images</h3>
+			</div>
+		</div>
+		  
+		<div id="modal-window-ten" class="modal-window modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+
+			<div class="mySlides mySlides10">
+				<div class="numbertext">1 / 4</div>
+				<img src="images/app-screens/bitcoin1.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides mySlides10">
+				<div class="numbertext">2 / 4</div>
+				<img src="images/app-screens/bitcoin2.jpg" style="width:100%">
+			</div>
+		
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			<div class="caption-container">
+				<p></p>
+			</div>
+
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/bitcoin1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Screen1">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/bitcoin2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Screen2">
+			</div>
+				
 			</div>
 		</div>
 		  
@@ -189,7 +615,46 @@
 				</figure>
 				<h2 class="sectionContentTitle">A story that could take different paths based on user responses</h2>
 				<p class="sectionContent"><b>Design:</b> MVC design pattern.</p>
-				<p class="sectionContent">Screen Images: <a href="#">this is a link</a></p>
+				<h3 onclick="openModal('mySlides11','modal-window-eleven');currentSlide(1)" class="hover-shadow cursor sectionContent">Screen Images</h3>
+			</div>
+		</div>
+		  
+		<div id="modal-window-eleven" class="modal-window modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+
+			<div class="mySlides mySlides11">
+				<div class="numbertext">1 / 4</div>
+				<img src="images/app-screens/Destiny1.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides mySlides11">
+				<div class="numbertext">2 / 4</div>
+				<img src="images/app-screens/Destiny2.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides mySlides11">
+				<div class="numbertext">3 / 4</div>
+				<img src="images/app-screens/Destiny3.jpg" style="width:100%">
+			</div>
+		
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			<div class="caption-container">
+				<p></p>
+			</div>
+
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/Destiny1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Screen1">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/Destiny2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Screen2">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/Destiny3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Screen3">
+			</div>
+			
 			</div>
 		</div>
 		  
@@ -203,7 +668,38 @@
 				</figure>
 				<h2 class="sectionContentTitle">A basic quiz application</h2>
 				<p class="sectionContent"><b>Design:</b> MVC design pattern.</p>
-				<p class="sectionContent">Screen Images: <a href="#">this is a link</a></p>
+				<h3 onclick="openModal('mySlides12','modal-window-twelve');currentSlide(1)" class="hover-shadow cursor sectionContent">Screen Images</h3>
+			</div>
+		</div>
+		  
+		<div id="modal-window-twelve" class="modal-window modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+
+			<div class="mySlides mySlides12">
+				<div class="numbertext">1 / 4</div>
+				<img src="images/app-screens/quizzler1.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides mySlides12">
+				<div class="numbertext">2 / 4</div>
+				<img src="images/app-screens/quizzler2.jpg" style="width:100%">
+			</div>
+		
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			<div class="caption-container">
+				<p></p>
+			</div>
+
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/quizzler1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Screen1">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/quizzler2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Screen2">
+			</div>
+				
 			</div>
 		</div>
 		  
@@ -217,7 +713,38 @@
 				</figure>
 				<h2 class="sectionContentTitle">.</h2>
 				<p class="sectionContent"><b>Storyboard Design:</b> Auto-layout and StackViews.</p>
-				<p class="sectionContent">Screen Images: <a href="#">this is a link</a></p>
+				<h3 onclick="openModal('mySlides13','modal-window-thirteen');currentSlide(1)" class="hover-shadow cursor sectionContent">Screen Images</h3>
+			</div>
+		</div>
+		  
+		<div id="modal-window-thirteen" class="modal-window modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+
+			<div class="mySlides mySlides13">
+				<div class="numbertext">1 / 4</div>
+				<img src="images/app-screens/calc1.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides mySlides13">
+				<div class="numbertext">2 / 4</div>
+				<img src="images/app-screens/calc2.jpg" style="width:100%">
+			</div>
+		
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			<div class="caption-container">
+				<p></p>
+			</div>
+
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/calc1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Screen1">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/calc2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Screen2">
+			</div>
+				
 			</div>
 		</div>
 		  
@@ -231,7 +758,30 @@
 				</figure>
 				<h2 class="sectionContentTitle">Playing music</h2>
 				<p class="sectionContent"><b>Frameworks/Libraries:</b> Sound files(AVFoundation, AudioToolBox)</p>
-				<p class="sectionContent">Screen Images: <a href="#">this is a link</a></p>
+				<h3 onclick="openModal('mySlides14','modal-window-fourteen');currentSlide(1)" class="hover-shadow cursor sectionContent">Screen Images</h3>
+			</div>
+		</div>
+		  
+		<div id="modal-window-fourteen" class="modal-window modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+
+			<div class="mySlides mySlides14">
+				<div class="numbertext">1 / 4</div>
+				<img src="images/app-screens/xylophone.jpg" style="width:100%">
+			</div>
+		
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			<div class="caption-container">
+				<p></p>
+			</div>
+
+			<div class="column">
+				<img class="demo cursor" src="images/app-screens/xylophone.jpg" style="width:100%" onclick="currentSlide(1)" alt="Screen1">
+			</div>
+				
 			</div>
 		</div>
 		  
