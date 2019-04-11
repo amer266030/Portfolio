@@ -282,7 +282,7 @@ footer .footerNote span {
 	border: 5px solid transparent;
 }
 .box {
-	margin: 20px;
+	margin: 10px;
 	min-height: 100px;
 }
 .row > .column {
@@ -390,6 +390,13 @@ footer .footerNote span {
 
 img {
 	margin-bottom: -4px;
+/*
+	border:0;
+	display:block;
+	height:auto;
+	max-width:100%;
+	width:auto;
+*/
 }
 
 .caption-container {
