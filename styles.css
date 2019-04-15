@@ -45,6 +45,7 @@ nav {
 	background-size: cover;
 	background-position: center 0%;
 	padding-top: 19px;
+	border-radius: 10px;
 }
 /* Header */
 .nav {
@@ -123,6 +124,9 @@ header .socialNetworkNavBar .socialNetworkNav {
 }
 header .socialNetworkNavBar .socialNetworkNav img:hover {
 	opacity: 0.5;
+}
+body {
+	background-color: #1F1F1F;
 }
 /* Main Content sections */
 .mainContent .section1 {
