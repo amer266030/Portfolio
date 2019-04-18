@@ -705,26 +705,5 @@ main {
 	margin-left: 26%;
 	font-family: sans-serif;
 }
-.mainContent .externalResourcesNav {
-	margin-top: 40px;
-	margin-bottom: 40px;
-	text-align: center;
-	padding-top: 0px;
-	clear: both;
-}
-.mainContent .externalResourcesNav .externalResources {
-	width: 199px;
-	height: 48px;
-}
-/* Footer */
-footer .footerDisclaimer {
-	float: left;
-	margin-left: 3%;
-	font-family: sans-serif;
-}
-footer .footerNote {
-	float: right;
-	margin-right: 3%;
-	font-family: sans-serif;
-}
+	
 }
