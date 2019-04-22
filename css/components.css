@@ -15,8 +15,8 @@
 }
 /* Custom forms */
 form.customform input, form.customform select, form.customform textarea, form.customform button {
- font-size:0.9rem;
- font-family:inherit;
+ font-size:1.2rem;
+ font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
  margin-bottom:1.25rem;
 } 
 form.customform input, form.customform select {height: 2.7rem;}
@@ -52,20 +52,21 @@ form.customform input[type="radio"], form.customform input[type="checkbox"] {
 form.customform option {padding: 0.625rem;}
 form.customform select[multiple="multiple"] {height: auto;}
 form.customform button {
- width: 100%;
- background: none repeat scroll 0 0 #152732;
- border: 0 none;
- border-radius: 4px;
- color: #fff;
- height: 2.7rem;
- padding: 0.625rem;
- cursor:pointer;
- width: 100%;
- transition: background 0.20s linear 0s;
- -o-transition: background 0.20s linear 0s;
- -ms-transition: background 0.20s linear 0s;
- -moz-transition: background 0.20s linear 0s;
- -webkit-transition: background 0.20s linear 0s;
+	width: 100%;
+	background: none repeat scroll 0 0 #152732;
+	background-color: rgba(206,130,36,1.00);
+	border: 0 none rgba(255,255,255,1.00);
+	border-radius: 6px;
+	color: #fff;
+	height: 2.7rem;
+	padding: 0.625rem;
+	cursor: pointer;
+	width: 100%;
+	transition: background 0.20s linear 0s;
+	-o-transition: background 0.20s linear 0s;
+	-ms-transition: background 0.20s linear 0s;
+	-moz-transition: background 0.20s linear 0s;
+	-webkit-transition: background 0.20s linear 0s;
 }
 /* Tooltip */
 a.tooltip-container,.tooltip-container {

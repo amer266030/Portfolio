@@ -96,13 +96,20 @@ header .profileHeader h1 {
 	color: rgba(146,146,146,1.00);
 	font-size: 40px;
 	font-weight: 800;
-	line-height: 28px;
+	line-height: 20px;
+}
+header .profileHeader h2 {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 26px;
+	font-weight: 650;
+	line-height: 10px;
 }
 header .profileHeader h3 {
 	font-family: sans-serif;
 	color: rgba(146,146,146,1.00);
-	font-size: 20px;
-	font-weight: 650;
+	font-size: 22px;
+	font-weight: 550;
 	line-height: 24px;
 }
 hr {
@@ -112,7 +119,7 @@ hr {
 header .profileHeader p {
 	font-family: sans-serif;
 	color: rgba(146,146,146,1.00);
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 500;
 	line-height: 1.8;
 	overflow-y: auto;
